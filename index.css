@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    /* background-color: rgb(107, 220, 182); */
+    padding: 30px;
+    margin: auto;
+}
+.container h1, p{
+  text-align: center;
+}
+.head{
+    padding-bottom: 8px;
+    margin: 0px;
+}
+input, textarea{
+    width: 80% ;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(139, 95, 227);
+    border-radius: 40px;
+    outline: none;
+    display: block;
+}
+form{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+.after{
+    color: rgb(33, 183, 116);
+    font-size: 25px;
+}
